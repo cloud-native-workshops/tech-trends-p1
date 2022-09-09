@@ -1,0 +1,58 @@
+
+2022-09-09 18:54:36,746 WARNING: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-09 18:54:36,746 INFO: * Running on http://192.168.0.200:3111/ (Press CTRL+C to quit)
+2022-09-09 18:54:36,747 INFO: * Restarting with stat
+2022-09-09 18:54:36,943 WARNING: * Debugger is active!
+2022-09-09 18:54:36,956 INFO: * Debugger PIN: 127-675-764
+2022-09-09 18:54:42,529 INFO:DatabaseConnection
+2022-09-09 18:54:42,537 INFO:192.168.0.200 - - [09/Sep/2022 18:54:42] "GET / HTTP/1.1" 200 -
+2022-09-09 18:54:42,562 INFO:192.168.0.200 - - [09/Sep/2022 18:54:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-09 18:54:45,372 INFO:DatabaseConnection
+2022-09-09 18:54:45,375 INFO:192.168.0.200 - - [09/Sep/2022 18:54:45] "GET /1 HTTP/1.1" 200 -
+2022-09-09 18:54:45,409 INFO:192.168.0.200 - - [09/Sep/2022 18:54:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-09 18:54:48,101 INFO:DatabaseConnection
+2022-09-09 18:54:48,102 INFO:192.168.0.200 - - [09/Sep/2022 18:54:48] "GET /2 HTTP/1.1" 200 -
+2022-09-09 18:54:48,162 INFO:192.168.0.200 - - [09/Sep/2022 18:54:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-09 19:19:29,990 WARNING: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-09 19:19:29,990 INFO: * Running on http://192.168.0.200:3111/ (Press CTRL+C to quit)
+2022-09-09 19:19:29,991 INFO: * Restarting with stat
+2022-09-09 19:19:30,173 WARNING: * Debugger is active!
+2022-09-09 19:19:30,182 INFO: * Debugger PIN: 127-675-764
+2022-09-09 19:20:37,853 INFO: * Detected change in '/Users/william/Workspace/tech-trends-p1/tech-trends/app.py', reloading
+2022-09-09 19:20:37,877 INFO: * Restarting with stat
+2022-09-09 19:20:38,066 WARNING: * Debugger is active!
+2022-09-09 19:20:38,072 INFO: * Debugger PIN: 127-675-764
+2022-09-09 19:20:47,193 WARNING: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-09 19:20:47,193 INFO: * Running on http://192.168.0.200:3111/ (Press CTRL+C to quit)
+2022-09-09 19:20:47,194 INFO: * Restarting with stat
+2022-09-09 19:20:47,400 WARNING: * Debugger is active!
+2022-09-09 19:20:47,405 INFO: * Debugger PIN: 127-675-764
+2022-09-09 19:23:35,420 WARNING: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-09 19:23:35,420 INFO: * Running on http://192.168.0.200:3111/ (Press CTRL+C to quit)
+2022-09-09 19:23:35,420 INFO: * Restarting with stat
+2022-09-09 19:23:35,604 WARNING: * Debugger is active!
+2022-09-09 19:23:35,609 INFO: * Debugger PIN: 127-675-764
+2022-09-09 19:26:18,580 WARNING: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-09 19:26:18,580 INFO: * Running on http://192.168.0.200:3111/ (Press CTRL+C to quit)
+2022-09-09 19:26:18,581 INFO: * Restarting with stat
+2022-09-09 19:26:18,763 WARNING: * Debugger is active!
+2022-09-09 19:26:18,768 INFO: * Debugger PIN: 127-675-764
+2022-09-09 19:26:36,807 INFO:DatabaseConnection
+2022-09-09 19:26:36,815 INFO:192.168.0.200 - - [09/Sep/2022 19:26:36] "GET / HTTP/1.1" 200 -
+2022-09-09 19:26:36,841 INFO:192.168.0.200 - - [09/Sep/2022 19:26:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-09 19:26:54,237 INFO:Status Requested
+2022-09-09 19:26:54,237 INFO:192.168.0.200 - - [09/Sep/2022 19:26:54] "GET /healthz HTTP/1.1" 200 -
+2022-09-09 19:27:08,499 INFO:Metrics Requested
+2022-09-09 19:27:08,499 INFO:192.168.0.200 - - [09/Sep/2022 19:27:08] "GET /metrics HTTP/1.1" 200 -
+2022-09-09 19:27:24,583 INFO:Metrics Requested
+2022-09-09 19:27:24,583 INFO:192.168.0.200 - - [09/Sep/2022 19:27:24] "GET /metrics HTTP/1.1" 200 -
+2022-09-09 19:27:30,215 INFO:DatabaseConnection
+2022-09-09 19:27:30,216 INFO:192.168.0.200 - - [09/Sep/2022 19:27:30] "GET / HTTP/1.1" 200 -
+2022-09-09 19:27:30,278 INFO:192.168.0.200 - - [09/Sep/2022 19:27:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-09 19:27:33,251 INFO:Metrics Requested
+2022-09-09 19:27:33,252 INFO:192.168.0.200 - - [09/Sep/2022 19:27:33] "GET /metrics HTTP/1.1" 200 -
