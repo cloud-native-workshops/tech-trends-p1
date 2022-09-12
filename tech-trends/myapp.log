@@ -56,3 +56,82 @@
 2022-09-09 19:27:30,278 INFO:192.168.0.200 - - [09/Sep/2022 19:27:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
 2022-09-09 19:27:33,251 INFO:Metrics Requested
 2022-09-09 19:27:33,252 INFO:192.168.0.200 - - [09/Sep/2022 19:27:33] "GET /metrics HTTP/1.1" 200 -
+2022-09-10 15:11:09,843 WARNING: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-10 15:11:09,844 INFO: * Running on http://192.168.0.200:3111/ (Press CTRL+C to quit)
+2022-09-10 15:11:09,845 INFO: * Restarting with stat
+2022-09-10 15:11:10,046 WARNING: * Debugger is active!
+2022-09-10 15:11:10,096 INFO: * Debugger PIN: 127-675-764
+2022-09-10 15:11:27,389 INFO:DatabaseConnection
+2022-09-10 15:11:27,398 INFO:127.0.0.1 - - [10/Sep/2022 15:11:27] "GET / HTTP/1.1" 200 -
+2022-09-10 15:11:27,459 INFO:127.0.0.1 - - [10/Sep/2022 15:11:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-10 15:11:31,679 INFO:DatabaseConnection
+2022-09-10 15:11:31,682 INFO:127.0.0.1 - - [10/Sep/2022 15:11:31] "GET /4 HTTP/1.1" 200 -
+2022-09-10 15:11:31,710 INFO:127.0.0.1 - - [10/Sep/2022 15:11:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-10 15:11:32,957 INFO:DatabaseConnection
+2022-09-10 15:11:32,958 INFO:127.0.0.1 - - [10/Sep/2022 15:11:32] "GET / HTTP/1.1" 200 -
+2022-09-10 15:11:32,986 INFO:127.0.0.1 - - [10/Sep/2022 15:11:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-10 15:13:03,247 INFO: * Detected change in '/Users/william/Workspace/tech-trends-p1/tech-trends/app.py', reloading
+2022-09-10 15:13:03,270 INFO: * Restarting with stat
+2022-09-10 15:13:03,463 WARNING: * Debugger is active!
+2022-09-10 15:13:03,469 INFO: * Debugger PIN: 127-675-764
+2022-09-10 15:13:11,400 WARNING: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-10 15:13:11,400 INFO: * Running on http://192.168.0.200:3111/ (Press CTRL+C to quit)
+2022-09-10 15:13:11,401 INFO: * Restarting with stat
+2022-09-10 15:13:11,598 WARNING: * Debugger is active!
+2022-09-10 15:13:11,602 INFO: * Debugger PIN: 127-675-764
+2022-09-10 15:13:19,637 INFO:DatabaseConnection
+2022-09-10 15:13:19,637 INFO:Loaded main page
+2022-09-10 15:13:19,646 INFO:127.0.0.1 - - [10/Sep/2022 15:13:19] "GET / HTTP/1.1" 200 -
+2022-09-10 15:13:19,675 INFO:127.0.0.1 - - [10/Sep/2022 15:13:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-10 15:13:20,442 INFO:DatabaseConnection
+2022-09-10 15:13:20,442 INFO:Loaded main page
+2022-09-10 15:13:20,443 INFO:127.0.0.1 - - [10/Sep/2022 15:13:20] "GET / HTTP/1.1" 200 -
+2022-09-10 15:13:20,475 INFO:127.0.0.1 - - [10/Sep/2022 15:13:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-10 15:13:21,183 INFO:DatabaseConnection
+2022-09-10 15:13:21,183 INFO:Loaded main page
+2022-09-10 15:13:21,184 INFO:127.0.0.1 - - [10/Sep/2022 15:13:21] "GET / HTTP/1.1" 200 -
+2022-09-10 15:13:21,213 INFO:127.0.0.1 - - [10/Sep/2022 15:13:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-10 15:13:22,318 INFO:DatabaseConnection
+2022-09-10 15:13:22,320 INFO:127.0.0.1 - - [10/Sep/2022 15:13:22] "GET /1 HTTP/1.1" 200 -
+2022-09-10 15:13:22,353 INFO:127.0.0.1 - - [10/Sep/2022 15:13:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-10 15:13:25,149 INFO:DatabaseConnection
+2022-09-10 15:13:25,150 INFO:127.0.0.1 - - [10/Sep/2022 15:13:25] "GET /2 HTTP/1.1" 200 -
+2022-09-10 15:13:25,185 INFO:127.0.0.1 - - [10/Sep/2022 15:13:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-10 15:13:26,310 INFO:DatabaseConnection
+2022-09-10 15:13:26,310 INFO:Loaded main page
+2022-09-10 15:13:26,310 INFO:127.0.0.1 - - [10/Sep/2022 15:13:26] "GET / HTTP/1.1" 200 -
+2022-09-10 15:13:26,335 INFO:127.0.0.1 - - [10/Sep/2022 15:13:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-10 15:30:02,686 INFO: * Detected change in '/Users/william/Workspace/tech-trends-p1/tech-trends/app.py', reloading
+2022-09-10 15:30:02,713 INFO: * Restarting with stat
+2022-09-10 15:30:02,956 WARNING: * Debugger is active!
+2022-09-10 15:30:02,964 INFO: * Debugger PIN: 127-675-764
+2022-09-10 15:30:10,539 INFO:DatabaseConnection
+2022-09-10 15:30:10,539 INFO:Loaded main page
+2022-09-10 15:30:10,552 INFO:127.0.0.1 - - [10/Sep/2022 15:30:10] "GET / HTTP/1.1" 200 -
+2022-09-10 15:30:10,578 INFO:127.0.0.1 - - [10/Sep/2022 15:30:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-10 15:30:11,921 INFO:DatabaseConnection
+2022-09-10 15:30:11,924 INFO:127.0.0.1 - - [10/Sep/2022 15:30:11] "GET /2 HTTP/1.1" 200 -
+2022-09-10 15:30:11,955 INFO:127.0.0.1 - - [10/Sep/2022 15:30:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-10 15:30:15,245 INFO:DatabaseConnection
+2022-09-10 15:30:15,245 INFO:Loaded main page
+2022-09-10 15:30:15,245 INFO:127.0.0.1 - - [10/Sep/2022 15:30:15] "GET / HTTP/1.1" 200 -
+2022-09-10 15:30:15,302 INFO:127.0.0.1 - - [10/Sep/2022 15:30:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-10 15:44:16,488 INFO: * Detected change in '/Users/william/Workspace/tech-trends-p1/tech-trends/app.py', reloading
+2022-09-10 15:44:16,521 INFO: * Restarting with stat
+2022-09-10 15:46:31,420 WARNING: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-10 15:46:31,420 INFO: * Running on http://192.168.0.200:3111/ (Press CTRL+C to quit)
+2022-09-10 15:46:31,422 INFO: * Restarting with stat
+2022-09-10 15:46:31,612 WARNING: * Debugger is active!
+2022-09-10 15:46:31,621 INFO: * Debugger PIN: 127-675-764
+2022-09-10 15:46:46,349 INFO:DatabaseConnection
+2022-09-10 15:46:46,357 INFO:127.0.0.1 - - [10/Sep/2022 15:46:46] "GET /1 HTTP/1.1" 200 -
+2022-09-10 15:46:46,382 INFO:127.0.0.1 - - [10/Sep/2022 15:46:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-10 15:46:47,872 INFO:DatabaseConnection
+2022-09-10 15:46:47,872 INFO:Loaded main page
+2022-09-10 15:46:47,876 INFO:127.0.0.1 - - [10/Sep/2022 15:46:47] "GET / HTTP/1.1" 200 -
+2022-09-10 15:46:47,931 INFO:127.0.0.1 - - [10/Sep/2022 15:46:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-10 17:49:02,443 INFO:192.168.0.200 - - [10/Sep/2022 17:49:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-10 17:52:59,550 INFO:127.0.0.1 - - [10/Sep/2022 17:52:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
