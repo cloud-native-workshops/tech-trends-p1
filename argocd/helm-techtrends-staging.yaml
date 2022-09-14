@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: techtrends-staging
-  namespace: staging
+  namespace: argocd
 spec:
   destination:
     namespace: default
@@ -11,7 +11,7 @@ spec:
   source:
     helm:
       valueFiles:
-        - values-staging
+        - values-staging.yaml
     path: helm
     repoURL: https://github.com/cloud-native-workshops/tech-trends-p1
     targetRevision: HEAD
