@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: techtrends-prod
+  namespace: prod
+spec:
+  destination:
+    namespace: default
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    helm:
+      valueFiles:
+        - values-prod
+    path: helm
+    repoURL: https://github.com/cloud-native-workshops/tech-trends-p1
+    targetRevision: HEAD
+  syncPolicy: {}
+
+
