@@ -1,0 +1,36 @@
+## Docker commands used to build the application
+# (devops-platforms) william@Williams-MacBook-Pro tech-trends-p1 % docker build -t william861227/tech-trends .
+## Docker commands used to run the application
+# (devops-platforms) william@Williams-MacBook-Pro tech-trends-p1 % docker run -d -p 7111:3111 william861227/tech-trends:latest
+
+## Docker commands used to get the application logs
+# (devops-platforms) william@Williams-MacBook-Pro tech-trends-p1 % docker logs 1bee91e41029
+
+## Logs from the container running the TechTrends application
+* Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+2022-09-10 13:52:15,092 WARNING: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-09-10 13:52:15,092 INFO: * Running on http://172.17.0.2:3111/ (Press CTRL+C to quit)
+2022-09-10 13:52:15,093 INFO: * Restarting with stat
+2022-09-10 13:52:15,240 WARNING: * Debugger is active!
+2022-09-10 13:52:15,240 INFO: * Debugger PIN: 899-459-186
+2022-09-10 13:52:21,022 INFO:DatabaseConnection
+2022-09-10 13:52:21,022 INFO:Loaded main page
+2022-09-10 13:52:21,032 INFO:172.17.0.1 - - [10/Sep/2022 13:52:21] "GET / HTTP/1.1" 200 -
+2022-09-10 13:52:21,061 INFO:172.17.0.1 - - [10/Sep/2022 13:52:21] "GET /static/css/main.css HTTP/1.1" 304 -
+2022-09-10 13:52:22,407 INFO:DatabaseConnection
+2022-09-10 13:52:22,410 INFO:172.17.0.1 - - [10/Sep/2022 13:52:22] "GET /1 HTTP/1.1" 200 -
+2022-09-10 13:52:22,441 INFO:172.17.0.1 - - [10/Sep/2022 13:52:22] "GET /static/css/main.css HTTP/1.1" 304 -
+2022-09-10 13:52:23,838 INFO:DatabaseConnection
+2022-09-10 13:52:23,838 INFO:Loaded main page
+2022-09-10 13:52:23,839 INFO:172.17.0.1 - - [10/Sep/2022 13:52:23] "GET / HTTP/1.1" 200 -
+2022-09-10 13:52:23,894 INFO:172.17.0.1 - - [10/Sep/2022 13:52:23] "GET /static/css/main.css HTTP/1.1" 304 -
+2022-09-10 13:52:25,472 INFO:DatabaseConnection
+2022-09-10 13:52:25,473 INFO:172.17.0.1 - - [10/Sep/2022 13:52:25] "GET /3 HTTP/1.1" 200 -
+2022-09-10 13:52:25,507 INFO:172.17.0.1 - - [10/Sep/2022 13:52:25] "GET /static/css/main.css HTTP/1.1" 304 -
+2022-09-10 13:52:31,517 INFO:Metrics Requested
+2022-09-10 13:52:31,517 INFO:172.17.0.1 - - [10/Sep/2022 13:52:31] "GET /metrics HTTP/1.1" 200 -
