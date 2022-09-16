@@ -28,12 +28,12 @@ spec:
           - containerPort: 3111
         livenessProbe:
           httpGet:
-            path: {{ .Values.image.livenessProbe.path }}
-            port: {{ .Values.image.livenessProbe.port }}
+            path: {{ .Values.image.livenessProbe.httpGet.path }}
+            port: {{ .Values.image.livenessProbe.httpGet.port }}
         readinessProbe:
           httpGet:
-            path: {{ .Values.image.readinessProbe.path }}
-            port: {{ .Values.image.readinessProbe.port }}
+            path: {{ .Values.image.readinessProbe.httpGet.path }}
+            port: {{ .Values.image.readinessProbe.httpGet.port }}
         resources:
           requests:
             cpu: {{ .Values.resources.requests.cpu }}
