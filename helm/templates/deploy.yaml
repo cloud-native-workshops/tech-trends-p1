@@ -28,14 +28,14 @@ spec:
           - containerPort: 3111
         livenessProbe:
           httpGet:
-            path: /healthz
-            port: 3111
+            path: {{ .Values.image.livenessProbe.path }}
+            port: {{ .Values.image.livenessProbe.port }}
         readinessProbe:
           httpGet:
-            path: /healthz
-            port: 3111
+            path: {{ .Values.image.readinessProbe.path }}
+            port: {{ .Values.image.readinessProbe.port }}
         resources:
           requests:
-            cpu: 250m
-            memory: 64Mi
+            cpu: {{ .Values.resources.requests.cpu }}
+            memory: {{ .Values.resources.requests.memory }}
 

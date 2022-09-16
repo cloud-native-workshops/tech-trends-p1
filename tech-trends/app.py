@@ -1,5 +1,6 @@
 import sqlite3
 import logging
+import sys
 
 from flask import Flask, jsonify, json, render_template, request, url_for, redirect, flash
 from werkzeug.exceptions import abort
@@ -60,9 +61,10 @@ def post(post_id):
     post = get_post(post_id)
     logging.info("DatabaseConnection")
     if post is None:
-        logging.info("No post with this ID")
+        logging.error("No post with this ID")
         return render_template('404.html'), 404
     else:
+        logging.info("ARTICLE ACCESSED")
         return render_template('post.html', post=post)
 
 
@@ -126,7 +128,9 @@ def metrics():
 
 # start the application on port 3111
 if __name__ == "__main__":
+    handler_stdout = logging.StreamHandler(sys.stdout)
+    handler_stderr = logging.StreamHandler(sys.stderr)
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s:%(message)s',
-                        handlers=[logging.FileHandler('myapp.log'), logging.StreamHandler()])
+                        handlers=[logging.FileHandler('myapp.log'), handler_stdout, handler_stderr])
     #logging.getLogger().addHandler(logging.StreamHandler())
     app.run(host='0.0.0.0', port='3111', debug=True)

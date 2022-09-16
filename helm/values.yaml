@@ -15,10 +15,10 @@ image:
     httpGet:
       path: /healthz
       port: 3111
-    readinessProbe:
-      httpGet:
-        path: /healthz
-        port: 3111
+  readinessProbe:
+    httpGet:
+      path: /healthz
+      port: 3111
 
 replicaCount: 1
 resources:
