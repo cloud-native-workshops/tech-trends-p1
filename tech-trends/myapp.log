@@ -135,3 +135,7 @@
 2022-09-10 15:46:47,931 INFO:127.0.0.1 - - [10/Sep/2022 15:46:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
 2022-09-10 17:49:02,443 INFO:192.168.0.200 - - [10/Sep/2022 17:49:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
 2022-09-10 17:52:59,550 INFO:127.0.0.1 - - [10/Sep/2022 17:52:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-09-16 00:23:40,865 INFO:DatabaseConnection
+2022-09-16 00:23:40,866 INFO:Loaded main page
+2022-09-16 00:23:40,872 INFO:127.0.0.1 - - [16/Sep/2022 00:23:40] "GET / HTTP/1.1" 200 -
+2022-09-16 00:23:40,933 INFO:127.0.0.1 - - [16/Sep/2022 00:23:40] "GET /static/css/main.css HTTP/1.1" 200 -
