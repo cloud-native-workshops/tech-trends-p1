@@ -71,7 +71,7 @@ def post(post_id):
 # Define the About Us page
 @app.route('/about')
 def about():
-    logging.info("Loaded ABOUT page")
+    logging.info("Loaded About page")
     return render_template('about.html')
 
 
